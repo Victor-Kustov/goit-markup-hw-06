@@ -365,9 +365,9 @@
                 </ul>
             </address>
             </div>
-            <div class="footer-sotial">
+            <div class="footer-social">
                 <h2 class="footer-title">присоединяйтесь</h2>
-                            <ul class="footer-sotial-list">
+                            <ul class="footer-social-list">
                                 <li class="footer-social-item">
                                     <a class="footer-social-link" href="">
                                         <svg class="footer-social-icon" width="20" height="20">
@@ -432,10 +432,8 @@
             <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
             <form action="">
                 <label class="form-input-text">
-                    <span class="input-title">
                         Имя
-                    </span>
-                    <div class="input-wrap">
+                    <span class="input-wrap">
                         <input
                             type="text"
                             name="user-name"
@@ -445,13 +443,11 @@
                             <use href="./images/icons.svg#icon-name">
                             </use>
                         </svg>
-                    </div>
+                    </span>
                 </label>
                 <label class="form-input-text">
-                    <span class="input-title">
                         Телефон
-                    </span>
-                    <div class="input-wrap">
+                    <span class="input-wrap">
                         <input
                         type="text"
                         name="user-name"
@@ -460,13 +456,11 @@
                             <use href="./images/icons.svg#icon-tel">
                             </use>
                         </svg>
-                    </div>
+                    </span>
                 </label>
                 <label class="form-input-text">
-                    <span class="input-title">
                         Почта
-                    </span>
-                    <div class="input-wrap">
+                    <span class="input-wrap">
                         <input
                         type="text"
                         name="user-name"
@@ -475,12 +469,10 @@
                             <use href="./images/icons.svg#icon-mail">
                             </use>
                         </svg>
-                    </div>
-                </label>
-                <label class="form-input-comment">
-                    <span class="input-title">
-                        Комментарий
                     </span>
+                </label>
+                <label class="form-input-text">
+                        Комментарий
                     <textarea
                         name="user-text"
                         class="user-text"
@@ -491,7 +483,9 @@
                     <input
                     type="checkbox"
                     name="checkbox"
-                    class="modal-checkbox-text visually-hidden">
+                    class="modal-checkbox-text visually-hidden"
+                    required
+                    >
                     <span class="check-mark">
                         <svg class="check-icon" width="16" height="15">
                             <use href="./images/icons.svg#icon-check">
@@ -505,9 +499,9 @@
                         Условия договора
                     </a>
                 </label>
-                <div class="modal-button-wrap">
-                    <button type="submit" class="modal-form-submit">Отправить</button>
-                </div>
+                <button type="submit" class="modal-form-submit">
+                    Отправить
+                </button>
             </form>
         </div>
     </div>
